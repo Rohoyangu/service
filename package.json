@@ -157,7 +157,7 @@
     "workbox-webpack-plugin": "^4.3.1"
   },
   "engines": {
-    "node":"12.16.2"
+    "node": "12.16.x"
   },
   "scripts": {
     "test": "jest --runInBand --config .jest/config.json",
