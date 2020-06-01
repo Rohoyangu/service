@@ -1,0 +1,54 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.product-list-item {
+  overflow-x:hidden !important;
+  text-align: center;
+
+
+  &__title {
+    text-transform: $product-item-title-text-transform;
+    text-align: center;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    color: #111 !important;
+  }
+
+  &__undiscounted_price {
+    text-decoration: line-through;
+    color: $gray;
+    font-size: $small-font-size;
+    font-weight: regular;
+  }
+
+  &__category {
+    color: $product-item-category-color;
+    text-align: center;
+  }
+
+  &__price {
+    font-weight: $product-item-price-font-weight;
+    text-align: center;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #111 !important; 
+    font-size: 13px !important;
+  }
+
+  &__image {
+
+    display: flex;
+    height: 350px;
+    justify-content: center;
+
+    img {
+      object-fit: contain;
+      max-width: 100%;
+    }
+
+    @media (max-width: $small-screen) {
+      height: 210px;
+    }
+  }
+}

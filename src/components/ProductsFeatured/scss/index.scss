@@ -1,0 +1,27 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.products-featured {
+  padding: 2rem 0 4rem;
+
+  h3 {
+   
+    margin-bottom: $spacer;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    color:#111 !important;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-weight: $bold-font-weight;
+    text-align: center;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: $bold-font-weight;
+    color:#111 !important;
+    max-width: 255px;
+    text-decoration: none;
+  }
+}
