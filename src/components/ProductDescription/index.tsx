@@ -188,7 +188,7 @@ class ProductDescription extends React.Component<
         />
      <div className="container">
   <div className="interior">
-    <a  href="#open-modal" className="under"><button class="btn third">View Size Chart</button></a>
+    <a  href="#open-modal" className="under"><button className="btn third">View Size Chart</button></a>
   </div>
 </div>
 <div id="open-modal" className="modal-window">
